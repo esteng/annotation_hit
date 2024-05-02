@@ -1,0 +1,15 @@
+.customSlider-thumb {
+    cursor: pointer;
+    /*color for the thumb */
+    background: var(--main-color);
+    /* shape of the thumb: circle */
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    /* remove default outline when selected */
+    outline: none;
+  }
+  
+  .customSlider-thumb:hover {
+    box-shadow: 0 0 0 8px var(--main-color-hover);
+  }
